@@ -2,7 +2,7 @@ name: Sanity Tests with Allure Report
 
 on:
   push:
-    branches: [main]  # Or your default branch
+    branches: [master]  # Or your default branch
   pull_request:
 
 jobs:
