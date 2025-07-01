@@ -25,7 +25,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright Test (specific file)
-        run: npx playwright test tests\End2End.spec.js
+        run: npx playwright test tests/End2End.spec.js
 
       - name: Run Playwright tests with Allure reporter
         run: npx playwright test
