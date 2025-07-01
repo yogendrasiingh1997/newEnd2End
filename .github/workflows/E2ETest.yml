@@ -1,4 +1,4 @@
-name: Sanity Tests with Allure Report
+name: E2E with Allure Report
 
 on:
   push:
