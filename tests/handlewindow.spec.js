@@ -18,7 +18,7 @@ await page2.goto("https://www1.traveluro.com")
 
 
 
-test.only('Handle multiple windows', async()=>{
+test('Handle multiple windows', async()=>{
 
 const browser= await chromium.launch()
 const context= await browser.newContext()

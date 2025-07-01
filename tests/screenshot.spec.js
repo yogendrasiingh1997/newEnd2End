@@ -15,7 +15,7 @@ await page.screenshot({path:'C:/Users/ADMIN/newEnd2End/tests/screenshot/' + 'Ful
 
 
 
-test.only("locatot screenshot", async({page})=>{
+test("locatot screenshot", async({page})=>{
 
 await page.goto("https://www1.traveluro.com") 
 await page.locator('//*[@id="root"]/div/div/div[3]/div/div[1]').screenshot({path:'C:/Users/ADMIN/newEnd2End/tests/screenshot/' + 'Footer_'+ Date.now()+ '.png'})

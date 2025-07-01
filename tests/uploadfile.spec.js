@@ -15,7 +15,7 @@ await page.waitForTimeout(5000);
 
 
 
-test.only("upload multiple file", async({page})=>{
+test("upload multiple file", async({page})=>{
 
 
 await page.goto("https://testautomationpractice.blogspot.com/") 

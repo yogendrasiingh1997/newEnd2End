@@ -54,7 +54,7 @@ test.describe('Group 2', ()=>
 
 //to run only specific group used only 
 
-test.describe.only('Group 3', ()=>
+test.describe('Group 3', ()=>
 {
     test('Test 5', async ({page})=>{
         console.log("This is Test 5")
